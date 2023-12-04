@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://de66ukdijvess"]
+
+[ext_resource type="Script" path="res://world.gd" id="1_lqoh0"]
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_lqoh0")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 455.0
+offset_top = 15.0
+offset_right = 708.0
+offset_bottom = 38.0
+text = "Hey There Welcome to the world"
